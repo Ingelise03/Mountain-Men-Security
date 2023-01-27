@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import Link from 'next/link';
 import { client, urlFor } from '../../lib/client';
-import  Product  from '../Containers/Product';
+import  Product  from '../../Containers/Product';
 import {  StateContext, useStateContext } from '../context/StateContext';
 import { Toaster } from 'react-hot-toast';
 import Layout from '../Shop/Layout'
