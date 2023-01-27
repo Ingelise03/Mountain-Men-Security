@@ -1,5 +1,5 @@
 import React from 'react'
-import { urlFor } from '../../../lib/client'
+import { urlFor } from '../../lib/client'
 import {PortableText} from '@portabletext/react';
 import { RiArrowRightLine, RiCloseLine } from 'react-icons/ri';
 import { useState } from 'react';
