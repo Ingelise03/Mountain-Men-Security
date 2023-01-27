@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './Containers/Product';
+import Product from '../Containers/Product';
 import { client } from '../lib/client';
 
 // import OnlineC from './Containers/onlineC';

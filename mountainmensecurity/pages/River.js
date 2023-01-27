@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiviersonderendHome } from './member/stuff';
+import { RiviersonderendHome } from '../member/stuff';
 import { client } from '../lib/client';
 
 import Link from 'next/link';

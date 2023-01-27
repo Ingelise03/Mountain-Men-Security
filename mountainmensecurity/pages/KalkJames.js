@@ -1,5 +1,5 @@
 import React from 'react'
-import { KalkBayStJamesHome } from './member/stuff';
+import { KalkBayStJamesHome } from '../member/stuff';
 import { client } from '../lib/client';
 import Link from 'next/link';
 const KalkJames = ({  Kalks }) => (

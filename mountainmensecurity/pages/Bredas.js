@@ -1,5 +1,5 @@
 import React from 'react'
-import { BredasdorpHome } from './member/stuff';
+import { BredasdorpHome } from '../member/stuff';
 import { client } from '../lib/client';
 import Link from 'next/link';
 const Bredas = ({  Bred }) => (

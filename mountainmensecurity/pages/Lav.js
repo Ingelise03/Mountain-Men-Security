@@ -1,5 +1,5 @@
 import React from 'react'
-import { LavenderHome } from './member/stuff';
+import { LavenderHome } from '../member/stuff';
 import { client } from '../lib/client';
 
 import Link from 'next/link';

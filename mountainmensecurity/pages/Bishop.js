@@ -1,5 +1,5 @@
 import React from 'react'
-import { BishopsHome } from './member/stuff';
+import { BishopsHome } from '../member/stuff';
 import { client } from '../lib/client';
 import Link from 'next/link';
 const Bishop = ({  Bish }) => (

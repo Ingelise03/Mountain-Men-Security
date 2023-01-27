@@ -1,5 +1,5 @@
 import React from 'react'
-import { NapierHome } from './member/stuff';
+import { NapierHome } from '../member/stuff';
 import { client } from '../lib/client';
 
 import Link from 'next/link';
