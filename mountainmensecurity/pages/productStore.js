@@ -3,7 +3,7 @@ import Product from '../Containers/Product';
 import { client } from '../lib/client';
 
 // import OnlineC from './Containers/onlineC';
-import Layout from './Shop/Layout'
+import Layout from '../Shop/Layout'
 import { Toaster } from 'react-hot-toast';
 const productStore = ({products}) => (
 
