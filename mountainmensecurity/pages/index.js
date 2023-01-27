@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import { React } from 'react';
 
-import { Footer, Blog, Services, Features, Shop, Header } from './Containers';
-import { ContactForm, Navbar } from './Components';
+import { Footer, Blog, Services, Features, Shop, Header } from '../Containers';
+import { ContactForm, Navbar } from '../Components';
 
 
 const Home = () => {
