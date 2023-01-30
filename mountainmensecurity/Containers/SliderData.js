@@ -1,7 +1,7 @@
 export const SliderData = [
     {
       image:
-        '/_CompanyLogo.png',
+        '/Allan.jpg',
       title: 
          'Owner: Allan Dillon',
          link:

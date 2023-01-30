@@ -854,6 +854,10 @@ p{
   flex-direction: row;
   align-items: center;
   margin: 0%;
+
+}
+.shopers p{
+  color: black;
 }
 .Scontainer img{
   height: 25px;
