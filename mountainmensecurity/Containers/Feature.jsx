@@ -12,7 +12,7 @@ const Features = () => {
   const [dropBox2, setDropbox2] = useState(false);
   
   return(
-  <div className="gpt3__features section__padding" id="features">
+  <div className="gpt3__features section__padding" id="about">
     <div className='containsAll'>
     <div className='heading2'>
     <div className='heading1'>
