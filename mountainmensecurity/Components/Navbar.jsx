@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className='links'><a href="#home">Home</a></div>
           <div className='links'><a href="#wgpt3">Services</a></div>
           <div className='links'><a href="#possibility">Shop</a></div>
-          <div className='links'><a href="#features">About</a></div>
+          <div className='links'><a href="#about">About</a></div>
           <div className='links'><a href="#blog">Our Team</a></div>
           <div className='links'><a href="#contactform">Contact Us</a></div>
         </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
           <div className='links'><a href="#home">Home</a></div>
           <div className='links'><a href="#wgpt3">Services</a></div>
           <div className='links'><a href="#possibility">Shop</a></div>
-          <div className='links'><a href="#features">About</a></div>
+          <div className='links'><a href="#about">About</a></div>
           <div className='links'><a href="#blog">Our Team</a></div>
           <div className='links'><a href="#contactform">Contact Us</a></div>
           </div>
