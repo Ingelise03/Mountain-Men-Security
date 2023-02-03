@@ -9,7 +9,7 @@ const Services = () => {
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
       <div className='styling'>
       <div className="gpt3__whatgpt3-feature">
-      <Feature title="Services" text="We offer state of the art solutions for security. Designed to ptomote a clear concious." />
+      <Feature title="Services" text="We offer state of the art solutions for security. Designed to promote a clear conscience." />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">Have a security problem? We have the solution!!</h1>
