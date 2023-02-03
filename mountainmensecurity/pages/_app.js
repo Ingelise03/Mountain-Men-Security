@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/global.css'
 import { StateContext } from '../context/StateContext'
 import { DefaultSeo } from 'next-seo'
 import nextSeoConfig from '../next-seo.config'
