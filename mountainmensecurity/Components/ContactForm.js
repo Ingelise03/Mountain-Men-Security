@@ -21,7 +21,7 @@ const ContactForm = () => {
                            </div>
                            <div className='ContactFormInfo'>
                            <h2>Whatsap Us</h2>
-                            <a aria-label="Chat on WhatsApp" href="https://wa.me/+27711924305">
+                            <a aria-label="Chat on WhatsApp" href="https://wa.me/+270711924305">
                             <Image alt="Chat on WhatsApp" src='/WhatsAppButtonWhiteMedium.png'  height={40} width={200}/></a>
                            </div>
                            
