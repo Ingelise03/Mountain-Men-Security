@@ -20,6 +20,7 @@ const Home = () => {
   <meta name='description' content='private security, armed response, mountain men security' />
   <meta name="robots" content="index, follow"/>
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="google-site-verification" content="Q9XMfuMHo6G38b2nco588oEV5kgPKZVhnbDEHUmlPbI" />
     </Head>
     <NextSeo
     title='Welcome to Mountain Men Security'
