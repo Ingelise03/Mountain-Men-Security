@@ -39,6 +39,9 @@ const ContactForm = () => {
                                         <a  href="https://mobile.twitter.com/mmsecurity">
                                         <Image src='/twitter.png' alt='twit' layout="responsive"height={50} width={50}/>
                                         </a>
+                                        <a  href="https://www.tiktok.com/@mountain_men_security">
+                                        <Image src='/tiktok.png' alt='tik' layout="responsive"height={50} width={50}/>
+                                        </a>
                                 </div>
                                        
                             </div>
