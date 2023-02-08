@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="gpt3__navbar"  id='top'>
        <div className="gpt3__navbar-links_logo" >
         <a href="#top"><Image className='ImLogo' src='/LogoMN.png' width={50}
- height={50} style={{ borderRadius: '50%', overflow: 'hidden'}} alt='logo'/></a>
+ height={50} style={{ borderRadius: '50%', overflow: 'hidden'}} alt='MountainMenlogo'/></a>
         </div>
         
       <div className="gpt3__navbar-links">
