@@ -5,7 +5,8 @@ export default {
       url: 'https://mountain-men-security.vercel.app/',
       site_name: 'Mountain Men Security',
     }, 
-    facebook:{
-        
-    }
+ twitter :{
+  handle: '@MMSecurity',
+  site: '@MMSecurity '
+ }
 };
