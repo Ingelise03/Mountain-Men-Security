@@ -41,4 +41,3 @@ export const getServerSideProps = async () => {
     };
 }
 export default Lav
-//lavender={lavenders.length > 0 && lavenders[0]}
