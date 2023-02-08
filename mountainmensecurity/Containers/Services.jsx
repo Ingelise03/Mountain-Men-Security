@@ -1,5 +1,6 @@
 import React from 'react';
 import Feature from '../Components/Features';
+import Head from 'next/head';
 
 
 import Image from "next/image";
@@ -7,6 +8,11 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+      <Head>
+      <title>Mountain Men Security Services</title>
+      <meta property="og:title" content="Mountain Men Security Services Provider" />
+      <meta property= "og:description" content='Protecting the community with experienced and reputable, 24-hour armed response. Mountain Men Security offers a range of security services for your home, family or business.'/>
+      </Head>
       <div className='styling'>
       <div className="gpt3__whatgpt3-feature">
       <Feature title="Services" text="We offer state of the art solutions for security. Designed to promote a clear conscience." />

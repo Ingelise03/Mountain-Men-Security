@@ -16,7 +16,6 @@ const Home = () => {
       <meta property="og:title" content="Mountain Men Security Website" />
   <meta property="og:description" content="Mountain Men Security is a professional private security company situated in Muizenberg, South Africa. The company was established by a team of dedicated ex-military and police officers who pride themselves on their expertise." />
   <meta property= "og:description" content='Mountain Men Security is a professional private security provider, specialising in both personal and commercial protection services across the Western Cape. We provide a wide range of security services and a 24/7 rapid response armed response'/>
-  <meta property= "og:description" content='Private Security'/>
   <meta property= "og:description" content='Mountain Men Security'/>
   <meta property="og:url" content="https://mountain-men-security.vercel.app/" />
   <meta property="og:type" content="website" />
