@@ -11,7 +11,7 @@ export default defineConfig({
   dataset: 'production',
   basePath: '/productStore',
 
-  plugins: [ vercelDeployTool(),deskTool(), visionTool()],
+  plugins: [vercelDeployTool(),deskTool(), visionTool()],
 
   schema: {
     types: schemaTypes,
