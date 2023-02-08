@@ -14,16 +14,21 @@ const Home = () => {
     <Head>
       <title>Mountain Men Security</title>
       <meta property="og:title" content="Mountain Men Security Website" />
-  <meta property="og:description" content="Mountain Men Security, private security" />
+  <meta property="og:description" content="Mountain Men Security" />
+  <meta property= "og:description" content='Armed Response'/>
+  <meta property= "og:description" content='Private Security'/>
+  <meta property= "og:description" content='Mountain Men Security'/>
   <meta property="og:url" content="https://mountain-men-security.vercel.app/" />
   <meta property="og:type" content="website" />
   <meta name='description' content='private security, armed response, mountain men security' />
   <meta name="robots" content="index, follow"/>
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
   <meta name="google-site-verification" content="Q9XMfuMHo6G38b2nco588oEV5kgPKZVhnbDEHUmlPbI" />
+  <meta property= "og:site_name" content='Mountain Men Security'/>
+  <link rel="canonical" href="https://mountain-men-security.vercel.app/" />
     </Head>
     <NextSeo
-    title='Welcome to Mountain Men Security'
+    title='Mountain Men Security'
     description='Private security company in Muizenberg'
     openGraph={{
       url: 'https://mountain-men-security.vercel.app/',
