@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // import {  useNavigate } from "react-router-dom";
 
-import {Member} from '../member';
+import {Dashboard} from '../member';
 
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-sign">
         
       
-      <button type="button" className="signinPage"onClick={() => setMemberLogin(true)}>Sign in</button>
+      <button type="button" className="signinPage"onClick={() => setMemberLogin(true)}>View News</button>
          <div className='LoginPage'>
            {memberLogin && (
            <div className='page'>
@@ -48,10 +48,10 @@ const Navbar = () => {
                     
                     <div className='tryBar'>
                       <div className='trybarHead'>
-                      <h1>Login Page </h1>
+                      <h1>Neighbourhood news </h1>
                       </div>
                   
-                       <div className='ownContain'> {memberLogin && <Member/>}</div>
+                       <div className='ownContain'> {memberLogin && <Dashboard/>}</div>
                        </div>
                     <div className='topbar'>
                       <button type="button" className="exit"onClick={()=> setMemberLogin(false)}>Exit</button> 
@@ -81,7 +81,7 @@ const Navbar = () => {
           <div className='links'><a href="#contactform">Contact Us</a></div>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-          <button type="button" className="signinPage"onClick={() => setMemberLogin(true)}>Sign in</button>
+          <button type="button" className="signinPage"onClick={() => setMemberLogin(true)}>View News</button>
          <div className='LoginPage'>
         
             
@@ -91,9 +91,9 @@ const Navbar = () => {
                  <div className='Pagehead'>
                  
                   <div className='trials'>
-                 <h1>Login Page </h1>  
+                 <h1>Neighbourhood news </h1>  
                  
-                  {memberLogin && <Member/>}
+                  {memberLogin && <Dashboard/>}
                   <button type="button" className="exit"onClick={() => setMemberLogin(false)}>Exit</button> 
                 </div>
                 
