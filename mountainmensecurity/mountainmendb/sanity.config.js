@@ -2,7 +2,7 @@ import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
-
+import { vercelDeployTool } from 'sanity-plugin-vercel-deploy'
 export default defineConfig({
   name: 'default',
   title: 'MountainMenDB',
@@ -11,7 +11,7 @@ export default defineConfig({
   dataset: 'production',
   basePath: '/productStore',
 
-  plugins: [deskTool(), visionTool()],
+  plugins: [ vercelDeployTool(),deskTool(), visionTool()],
 
   schema: {
     types: schemaTypes,
