@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Head from 'next/head';
 import Image from "next/image";
 
 const ContactForm = () => {
@@ -7,7 +7,11 @@ const ContactForm = () => {
         
     return (
         <div className="mt-5" id='contactform'>
-
+<Head>
+<title>Mountain Men Security Services</title>
+      <meta property="og:title" content="Mountain Men Security Services  Contact Us" />
+      <meta property= "og:description" content='Interested in private security? Want to contact us? Mountain Men Security is a licensed private security company located in Muizenberg.'/>
+</Head>
            
 <h2 className="mb-3">Contact US</h2>
                   

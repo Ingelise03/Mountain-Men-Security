@@ -13,13 +13,12 @@ const Home = () => {
   <div className='gradient__bg'>
     <Head>
       <title>Mountain Men Security</title>
-      <meta property="og:title" content="Mountain Men Security Website" />
+      <meta property="og:title" content="Mountain Men Security" />
   <meta property="og:description" content="Mountain Men Security is a professional private security company situated in Muizenberg, South Africa. The company was established by a team of dedicated ex-military and police officers who pride themselves on their expertise." />
   <meta property= "og:description" content='Mountain Men Security is a professional private security provider, specialising in both personal and commercial protection services across the Western Cape. We provide a wide range of security services and a 24/7 rapid response armed response'/>
-  <meta property= "og:description" content='Mountain Men Security'/>
+ 
   <meta property="og:url" content="https://mountain-men-security.vercel.app/" />
   <meta property="og:type" content="website" />
-  <meta name='description' content='private security, armed response, mountain men security' />
   <meta name="robots" content="index, follow"/>
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
   <meta name="google-site-verification" content="Q9XMfuMHo6G38b2nco588oEV5kgPKZVhnbDEHUmlPbI" />
@@ -32,7 +31,7 @@ const Home = () => {
     description='Mountain Men Security is a private security and armed response company located in Muizenberg, South Africa. Our uniformed security teams can be seen patrolling the streets of Cape Town and surrounding areas to protect you and your family.'
     openGraph={{
       url: 'https://mountain-men-security.vercel.app/',
-     tags: ['Armed Response', 'Private security', 'Alarms']
+     tags: ['Armed Response', 'Private security', 'Alarms', 'Security Company near me', 'Private Security in Muizenberg', 'Mountain men', 'Mountain Men Security']
 
       
     }}
