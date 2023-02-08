@@ -9,6 +9,7 @@ export default defineConfig({
 
   projectId: 'nwwws2wk',
   dataset: 'production',
+  basePath: '/productStore',
 
   plugins: [deskTool(), visionTool()],
 
