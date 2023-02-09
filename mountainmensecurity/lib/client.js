@@ -8,4 +8,8 @@ export const client = sanityClient({
     token: process.env.NEXT_PUBLIC_SANITY_TOKEN
   });
   const builder = imageUrlBuilder(client);
+  client
+  .fetch(`count(*)`)
+  .then((data) => console.log(`Number of documents: ${data}`))
+  .catch(console.error)
   export const urlFor = (source) => builder.image(source);
