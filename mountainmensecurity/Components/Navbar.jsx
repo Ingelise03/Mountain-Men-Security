@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import Link from 'next/link';
 // import {FaChevronDown, FaChevronUp} from 'react-icons/fa';
 import Image from "next/image";
 
@@ -50,9 +51,110 @@ const Navbar = () => {
                       <div className='trybarHead'>
                       <h1>Neighbourhood news </h1>
                       </div>
-                  
-                       <div className='ownContain'> {memberLogin && <Dashboard/>}</div>
+                      <div className="newslinks">
+        <div className="newslinks1">
+        <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Lav'}>Lavender</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+     
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Mui'}>Muizenberg</Link>
+            </li>
+          </ul>
+          </div>
+          
+        
+        
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Bishop'}>Bishopscourt</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Bredas'}>Bredasdorp</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/River'}>Riviersonderend </Link>
+            </li>
+          </ul>
+          </div>
+         
+        </div>
+      
+         <div className="newslinks1">
+        
+        
+      
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/KalkJames'}>KalkBay and St. James</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+       
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Kirsten'}>Kirstenhof</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Lake'}>WestLake</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Nap'}>Napier</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+      
+         
+         
+        
+        
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Tok'}>Tokai</Link>
+            </li>
+          </ul>
+          </div>
+         </div>
+        
+         
+        
+          
+       </div>
+                      
                        </div>
+     
                     <div className='topbar'>
                       <button type="button" className="exit"onClick={()=> setMemberLogin(false)}>Exit</button> 
                     </div>
@@ -89,11 +191,112 @@ const Navbar = () => {
            <div className='page'>
                  
                  <div className='Pagehead'>
-                 
+                
                   <div className='trials'>
-                 <h1>Neighbourhood news </h1>  
+     
                  
-                  {memberLogin && <Dashboard/>}
+       <div className="newslinks">
+       <h1>Neighbourhood news</h1>  
+        <div className="newslinks1">
+        <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Lav'}>Lavender</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+     
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Mui'}>Muizenberg</Link>
+            </li>
+          </ul>
+          </div>
+          
+        
+        
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Bishop'}>Bishopscourt</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Bredas'}>Bredasdorp</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/River'}>Riviersonderend </Link>
+            </li>
+          </ul>
+          </div>
+         
+        </div>
+      
+         <div className="newslinks2">
+        
+        
+      
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/KalkJames'}>KalkBay and St. James</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+       
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Kirsten'}>Kirstenhof</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Lake'}>WestLake</Link>
+            </li>
+          </ul>
+          </div>
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Nap'}>Napier</Link>
+            </li>
+          </ul>
+          </div>
+         
+        
+      
+         
+         
+        
+        
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Tok'}>Tokai</Link>
+            </li>
+          </ul>
+          </div>
+         </div>
+        
+         
+        
+          
+       </div>
                   <button type="button" className="exit"onClick={() => setMemberLogin(false)}>Exit</button> 
                 </div>
                 

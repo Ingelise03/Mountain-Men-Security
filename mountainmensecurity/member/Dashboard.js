@@ -114,137 +114,15 @@ else if (newpassword!=accessTokenTok
       
         <div className="profile">
           <div className='idea' >
-            <button className="ideaButton" onClick={() => setDropbox(true)}>
-              <h3>To view News in your neighbourhood enter the key provided to you by Mountain Men Security</h3>
-           {dropBox &&  <div  id='moreinfo'>
-                  
-                  {show1 && (
-                    <div className="profileLogin">
-                      <div>
-                      <input
-                    type="text"
-                    className="passwordText"
-                    value={newpassword}
-                    onChange={(e) => newsetPassword(e.target.value)}
-                    placeholder="Token"
-                  />
-                      </div>
-                      <div className="ideaBut">
-                      <button onClick={handleClick}>Submit</button>
-                      </div>
-                   
-                     
-                    </div>
-                   
-                  )}
-             
-               
-                </div>} 
-               
-
-              </button>
+            
+   
+ 
           </div>
         </div>
-        {showLav && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Lav'}>View here</Link>
-            </li>
-          </ul>
-          </div>
+       
          
-        )}
-        {showMuis && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Mui'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-          
-        )}
-        {showBishops && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Bishop'}>View here</Link>
-            </li>
-          </ul>
-          </div>
          
-        )}
-         {showBreda && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Bredas'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-         {showKalkJ && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/KalkJames'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-        {showKirst && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Kirsten'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-        {showLakes && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Lake'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-        {showNap && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Nap'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-        {showRiv && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/River'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
-        {showTokai && (
-          <div className="option">
-          <ul>
-            <li>
-            <Link href={'/Tok'}>View here</Link>
-            </li>
-          </ul>
-          </div>
-         
-        )}
+        
       </div>
     </div>
   );

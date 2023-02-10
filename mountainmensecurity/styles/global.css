@@ -361,6 +361,7 @@ button:hover{
     right:-250px !important;
     width: 300px;
   }
+
   .trials {
     display: flex;
     margin-top: 70%;
@@ -874,17 +875,33 @@ justify-content: center;
   margin: 20px;
  
 }
+.newslinks{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.newslinks1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.newslinks2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
 .option >ul{
   list-style: none;
   border-radius: 50px;
   background: #ffffff;
   box-shadow:  5px 5px 10px #d9d9d9,
                -5px -5px 10px #ffffff;
-  padding: 1rem;
+  padding: 0.5rem;
   font-family: var(--font-family);
-  font-size: 20px;
-  line-height: 45px;
-  font-weight: 800;
+  font-size: 5px;
+ 
   color: #c00404;
   transition: 0.5s;
 }
@@ -991,7 +1008,31 @@ justify-content: center;
   align-items: center;
   margin: 0.5rem;
   }
+  .trials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newslinks{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
   
+  }
+  .option>ul{
+    font-size: 0px;
+
+  }
+  .option a{
+    font-size: 15px;
+  }
+  .option{
+    margin:0.5rem;
+  }
+  .newslinks1{
+    margin-top: 4.5rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -1491,6 +1532,18 @@ padding:1rem;
     inset -5px -5px 10px #ffffff;
     padding: 1rem;
   }
+  .fb{
+    max-width: 320px;
+  }
+  .fb h2{
+    font-size: 15px;
+  }
+  .fb a{
+    margin: 0.2rem;
+  }
+  .SocialMedia{
+    max-width: 300px;
+  }
   
 }
 
@@ -1612,7 +1665,7 @@ padding:1rem;
   color: Black;
   font-family: var(--font-family);
   border-width: 0px;
- max-width: 460px;
+  width: 100%;
   border-radius: 50px;
   border-color: #ffffff;
   background: #ffffff;
@@ -2775,6 +2828,12 @@ padding: 30px 65px;
 }
 }
 @media screen and (max-width:500px) {
+
+  .Pagehead button{
+    margin: 0;
+    font-size: 13px;
+    padding: 0.5rem;
+  }
   .Member{
     max-width: 50px;
   }
@@ -2828,7 +2887,8 @@ padding: 30px 65px;
     height:730px;
   }
   .trials h1{
-    margin-top:-30px;
+    margin-top:-50px;
+    font-size: 15px;
   }
  .navbar-container{
    max-width:91.7%;
