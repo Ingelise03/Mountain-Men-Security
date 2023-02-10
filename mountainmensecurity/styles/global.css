@@ -1393,7 +1393,7 @@ margin: 1rem;
   flex-direction: column;
 }
 .email{
-  
+  color: black;
   padding:0.5rem;
   flex:1;
 }
