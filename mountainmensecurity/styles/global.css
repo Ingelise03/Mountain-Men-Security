@@ -823,6 +823,11 @@ p{
   flex-direction: column;
   border-radius: 10px;
 }
+.shop a{
+  color: #c00404;
+  font-weight: 800;
+  font-size: 20px;
+}
 .Containers1{
   display: flex;
   flex-wrap: wrap;
@@ -1032,6 +1037,9 @@ justify-content: center;
   }
   .newslinks1{
     margin-top: 4.5rem;
+  }
+  .shop a{
+    font-size: 12px;
   }
 }
 
@@ -1392,6 +1400,7 @@ margin: 1rem;
   display: flex;
   flex-direction: column;
 }
+
 .email{
   color: black;
   padding:0.5rem;
