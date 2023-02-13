@@ -1,7 +1,7 @@
 
 import Head from 'next/head';
 import { React } from 'react';
-
+import Script from 'next/script'
 import { Footer, Blog, Services, Features, Shop, Header } from '../Containers';
 import { ContactForm, Navbar } from '../Components';
 import { NextSeo } from 'next-seo';
@@ -12,6 +12,14 @@ const Home = () => {
   <div className='App'>
   <div className='gradient__bg'>
     <Head>
+    
+    <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K2LT75W');`}}></Script>
+
+ 
   <title>Mountain Men Security</title>
   <meta property="og:title" content="Mountain Men Security" />
   <meta property="og:description" content="Mountain Men Security is a professional private security company situated in Muizenberg, South Africa. The company was established by a team of dedicated ex-military and police officers who pride themselves on their expertise." />
