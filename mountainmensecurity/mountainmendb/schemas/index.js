@@ -9,4 +9,5 @@ import Bishopscourt from "./Bishopscourt";
 import Bredasdorp from "./Bredasdorp";
 import Riviersonderend from "./Riviersonderend";
 import Napier from "./Napier";
-export const schemaTypes = [lavender, muis, product,KalkBayStJames,Lakeside, Kirstenhof, Tokai, Bishopscourt, Bredasdorp, Riviersonderend, Napier ]
+import kommetjie from "./kommetjie";
+export const schemaTypes = [kommetjie, lavender, muis, product,KalkBayStJames,Lakeside, Kirstenhof, Tokai, Bishopscourt, Bredasdorp, Riviersonderend, Napier ]

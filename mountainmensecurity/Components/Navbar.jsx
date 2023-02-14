@@ -134,7 +134,13 @@ const Navbar = () => {
           </div>
          
         
-      
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Kommetjie'}>Kommetjie</Link>
+            </li>
+          </ul>
+          </div>
          
          
         
@@ -280,7 +286,13 @@ const Navbar = () => {
          
         
       
-         
+          <div className="option">
+          <ul>
+            <li>
+            <Link href={'/Kommetjie'}>Kommetjie</Link>
+            </li>
+          </ul>
+          </div>
          
         
         
