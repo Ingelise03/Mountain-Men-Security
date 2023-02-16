@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import Link from 'next/link';
-// import {FaChevronDown, FaChevronUp} from 'react-icons/fa';
+
 import Image from "next/image";
 
-// import {  useNavigate } from "react-router-dom";
 
-import {Dashboard} from '../member';
 
 
 const Navbar = () => {
-  // const navigate = useNavigate();
+
   const [memberLogin, setMemberLogin] = useState(false);
 
   const [toggleMenu, setToggleMenu] = useState(false);

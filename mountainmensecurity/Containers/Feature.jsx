@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { RiArrowRightLine, RiCloseLine } from 'react-icons/ri';
 
-
+import Head from 'next/head';
 
 
 
@@ -13,6 +13,21 @@ const Features = () => {
   
   return(
   <div className="gpt3__features section__padding" id="about">
+    <Head>
+    <title>Mountain Men Security</title>
+  <meta property="og:title" content=" About Mountain Men Security" />
+  <meta property="og:description" content="Mountain Men Security is a professional private security company situated in Muizenberg, South Africa. The company was established by a team of dedicated ex-military and police officers who pride themselves on their expertise." />
+
+ 
+  <meta property="og:url" content="https://mountain-men-security.vercel.app/#about" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow"/>
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="google-site-verification" content="Q9XMfuMHo6G38b2nco588oEV5kgPKZVhnbDEHUmlPbI" />
+  <meta property= "og:site_name" content='Mountain Men Security'/>
+  <link rel="canonical" href="https://mountain-men-security.vercel.app/#about" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </Head>
     <div className='containsAll'>
     <div className='heading2'>
     <div className='heading1'>
