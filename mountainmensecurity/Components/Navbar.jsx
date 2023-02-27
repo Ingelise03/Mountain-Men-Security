@@ -74,7 +74,7 @@ const Navbar = () => {
           <div className="option">
           <ul>
             <li>
-            <Link href={'/Bishop'}>Bishopscourt</Link>
+            <Link href={'/Bishop'}>Fernwood</Link>
             </li>
           </ul>
           </div>
